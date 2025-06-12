@@ -12,8 +12,10 @@ public class Launch {
 		driver.navigate().to("https://www.selenium.dev/documentation/webdriver/");
 		Thread.sleep(5000);
 		driver.navigate().back();
-		Thread.sleep(7000);
+		Thread.sleep(9000);
 		driver.navigate().forward();
+		Thread.sleep(9000);
+		
 
 	}
 
